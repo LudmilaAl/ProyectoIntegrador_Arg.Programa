@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(216, 216, 213, 0.89);
+    padding: 15px;
+}
+
+.proyect1{
+    width: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  
+}
+
+.parte1, .parte2 {
+    display:inline-block;
+    align-items: center;
+}
+
+@media(max-width:575px){
+
+    .proyect1{
+      margin: 0.2cm;
+      flex-direction: column;
+    }
+  }
